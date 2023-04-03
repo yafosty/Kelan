@@ -256,7 +256,7 @@ font-size: 22px;
 #photo{
     width: 100%;
     height: 75%;
-    background-image: url(../img/2.png);
+    background-image: url(img/2.png);
     margin-top: 5px;
     background-size: cover;
     border-radius: 0 16px 0 16px;
@@ -266,7 +266,7 @@ font-size: 22px;
 #photo2{
     width: 100%;
     height: 75%;
-    background-image: url(../img/1.png);
+    background-image: url(img/1.png);
     margin-top: 5px;
     background-size: cover;
     border-radius: 0 16px 0 16px;
