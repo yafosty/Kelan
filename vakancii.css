@@ -1,0 +1,195 @@
+body{
+    background-color: rgb(243, 232, 222);
+    
+}
+
+
+#vakansiya{
+    border: 1px solid black;
+    border-radius: 3%;
+    height: 500px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: 0 0 5px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgb(226, 208, 192);
+
+}
+#name{
+
+    width: 40%;
+    height: 495px;
+}
+#opisanie{
+ 
+    width: 60%;
+    height: 495px;
+    margin-left: 5px;
+    
+    
+}
+#text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+#text1{
+    margin-top: 20px;
+    height: 29px;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+#text2{
+    margin-top: -30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-top: 5px solid black;
+}
+#obyaz{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+#yslovie{
+    height: 45%;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+#obyaz1{
+    width: 50%;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+#trebov{
+    width: 50%;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+#name1{
+    width: 100%;
+    height: 25%;
+    text-align: bottom;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    align-items: end;
+    text-align: center;
+    font-weight: bold;
+}
+#photo{
+    width: 100%;
+    height: 75%;
+    background-image: url(2.png);
+    margin-top: 5px;
+    background-size: cover;
+    border-radius: 0 16px 0 16px;
+    background-position: center;
+
+}
+#photo2{
+    width: 100%;
+    height: 75%;
+    background-image: url(1.png);
+    margin-top: 5px;
+    background-size: cover;
+    border-radius: 0 16px 0 16px;
+    background-position: center;
+
+}
+.footer{
+    width: 90%;
+    height: 50px;
+    margin-left: 100px;
+}
+.butt{
+    width: 100%;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:inline-block;
+    border-radius: 50px;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    background-color: rgb(226, 208, 192);
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+a:link{
+    color: #000;
+    outline: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+a:visited{
+    color: black;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.butt:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+   
+.butt:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+
+
+   
+.butt::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+  }
+   
+
+   
+.butt:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
+  
+    #spec{
+        width: 33%;
+        height: 50px;
+        float:left;
+        margin-left: 10px;
+    }
+    #vakansii{
+        width: 33%;
+        height: 50px;
+        float: right;
+    }
