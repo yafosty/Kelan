@@ -25,8 +25,7 @@ body{
     height: 770px;
     background-color: rgb(226, 208, 192);
     border-radius: 50px;
-    border: 1px solid black;
-     box-shadow: 0 0 5px;
+  
 }
 .footer{
     width: 100%;
