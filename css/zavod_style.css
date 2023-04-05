@@ -3,8 +3,10 @@ body{
     
 }
 .kelan{
-    height: 150px;
+    height: 110px;
     width: 100%;
+    background-image: url(https://sun9-78.userapi.com/impg/GwJ5j9Z5owBQSXxGRdinKy1j1ynZg_Owmc4nUA/wZlo-oELj9I.jpg?size=1315x142&quality=96&sign=c4f4684ce88a0cd55492fd973e6d1650&type=album);
+    background-repeat: no-repeat;
 }
 
 
@@ -16,14 +18,13 @@ body{
 .main{
     margin: auto;
     width: 95%;
-    height: 1000px;
+    height: 770px;
     background-color: rgb(226, 208, 192);
     border-radius: 50px;
 }
 .footer{
-    width: 90%;
+    width: 100%;
     height: 50px;
-    margin-left: 100px;
 }
 .butt{
     width: 100%;
@@ -42,7 +43,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
 }
 
 a:link{
@@ -67,7 +67,6 @@ a:visited{
 .butt:active {
     transform: translateY(-1px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    
 }
 
 
@@ -77,59 +76,99 @@ a:visited{
 .butt::after {
     content: "";
     display: inline-block;
-    height: 100%;
-    width: 100%;
+    height: 90%;
+    width: 90%;
     border-radius: 100px;
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
     transition: all .4s;
-  }
+}
    
 
    
 .butt:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
-  }
-
-
-
-
-#geo{
-width: 33%;
-height: 50px;
-float: left;
 }
+
+
+
+
 #spec{
-    width: 33%;
+    width: 400px;
     height: 50px;
-    float:left;
-    margin-left: 10px;
+    display: inline-block;
+    margin-left: 100px;
+    line-height:50px;
+}
+#geo{
+width: 400px;
+height: 50px;
+display: inline-block;
+margin-left: 250px;
+line-height:50px;
 }
 #vakansii{
-    width: 33%;
+    width: 400px;
     height: 50px;
-    float: right;
+   display: inline-block;
+   line-height:50px;
+   margin-left: 250px;
 }
+
+
+#specV{
+    width: 400px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 300px;
+    line-height:50px;
+}
+#mainPage{
+    width: 400px;
+    height: 50px;
+   display: inline-block;
+   line-height:50px;
+   margin-left: 480px; 
+}
+
+
+#vakansiiS{
+    width: 400px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 100px;
+    line-height:50px;
+}
+#mainPageS{
+    width: 400px;
+    height: 50px;
+   display: inline-block;
+   line-height:50px;
+   margin-left: 900px; 
+}
+
+
+
 
 
 .photo{
     width: 45%;
-    height: 450px;
+    
     
 }
 .text{
     width: 45%;
-    height: 450px;
-    
+    height: 300px;
 }
 #pic1{
     
     float: left;
     margin-left: 40px; 
     margin-top: 20px;
+    height: 300px;
 }
 img{
     width: 100%;
@@ -149,7 +188,7 @@ h1{
 }
 p{
 text-align: center;
-font-size: 22px;
+font-size: 20px;
 }
 .tx{
     font-size: 28px;
@@ -167,8 +206,12 @@ font-size: 22px;
     float: right;
     float: bottom;
     margin-right: 35px;
-    margin-top: 60px;
+    margin-top: 20px;
 }
+
+
+
+
 #vakansiya{
     border: 1px solid black;
     border-radius: 3%;
@@ -256,7 +299,7 @@ font-size: 22px;
 #photo{
     width: 100%;
     height: 75%;
-    background-image: url(https://sun9-3.userapi.com/impg/sboMzhj0Ob43SiJWf2Ojg64GTxWr6xP2OkA_jA/v81FmyxrSYg.jpg?size=511x384&quality=96&sign=a1eb5abbe4dfa8e94772dcd84ea0b782&type=album);
+    background-image: url(2.png);
     margin-top: 5px;
     background-size: cover;
     border-radius: 0 16px 0 16px;
@@ -266,7 +309,7 @@ font-size: 22px;
 #photo2{
     width: 100%;
     height: 75%;
-    background-image: url(https://sun9-77.userapi.com/impg/WuuNCKkFERQFuCFqXU8fIwJgDOAlRU2HvTHUHw/DOriEE4neFY.jpg?size=507x377&quality=96&sign=d9c1c2f69e63fba29c155c5562a99521&type=album);
+    background-image: url(1.png);
     margin-top: 5px;
     background-size: cover;
     border-radius: 0 16px 0 16px;
